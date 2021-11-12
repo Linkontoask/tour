@@ -1,0 +1,45 @@
+{
+  "name": "tour",
+  "version": "1.0.0",
+  "description": "Guide your users through a tour of your app",
+  "main": "lib/index.cjs.js",
+  "module": "lib/index.esm.js",
+  "browser": "lib/index.umd.js",
+  "scripts": {
+    "serve": "rollup -c -w",
+    "build": "rollup -c",
+    "types": "tsc src/index.ts --declaration --downlevelIteration --emitDeclarationOnly --resolveJsonModule --esModuleInterop --moduleResolution node --target es2020 --outDir types"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Linkontoask/tour.git"
+  },
+  "keywords": [
+    "guide"
+  ],
+  "author": "Link",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Linkontoask/tour/issues"
+  },
+  "homepage": "https://github.com/Linkontoask/tour#readme",
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "@babel/preset-typescript": "^7.16.0",
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.0.6",
+    "@types/lodash-es": "^4.17.5",
+    "csstype": "^3.0.9",
+    "lodash": "^4.17.21",
+    "rollup": "^2.60.0",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-scss": "3",
+    "sass": "^1.43.4",
+    "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.10.2",
+    "lodash-es": "^4.17.21"
+  }
+}

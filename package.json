@@ -1,5 +1,5 @@
 {
-  "name": "tour",
+  "name": "@linkorgs/tour",
   "version": "1.0.0",
   "description": "Guide your users through a tour of your app",
   "main": "lib/index.cjs.js",
